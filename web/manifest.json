@@ -1,0 +1,23 @@
+{
+    "name": "Qubicle Tech Agency",
+    "short_name": "Qubicle Tech Agency",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Qubicle Tech Agency is an industry-leading mobile and software development agency.  Since 2016, our team of award-winning mobile strategists, UX/UI designers, and software engineers have delivered many mobile and digital solutions to the world’s leading enterprise and consumer-facing companies.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

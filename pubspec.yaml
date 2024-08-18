@@ -1,0 +1,157 @@
+name: agency_landing_page
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.1
+  eva_icons_flutter: ^3.1.0
+  # flutter_vector_icons: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  build_web_compilers: ^4.0.5
+  pedantic: ^1.0.0
+  # flutter_web_scrollbar: ^0.0.3
+  url_launcher: ^6.0.9
+  carousel_slider: ^4.2.1
+  # carousel_pro: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/image/image_01.png
+    - assets/image/menu.png
+    - assets/image/sent.png
+    - assets/image/lp_image.png
+    - assets/image/item1.png
+    - assets/image/item2.png
+    - assets/image/circle.png
+    - assets/image/item3.png
+    - assets/image/item4.png
+    - assets/image/itemWhite1.png
+    - assets/image/itemWhite2.png
+    - assets/image/itemWhite3.png
+    - assets/image/itemWhite4.png
+    - assets/image/logo.png
+    - assets/image/imageHeader.jpg
+    - assets/image/ai.png
+    - assets/image/bug.png
+    - assets/image/coding.png
+    - assets/image/design.png
+    - assets/image/crypto.jpg
+    - assets/image/foodie.jpg
+    - assets/image/profile1.png
+    - assets/image/profile2.jpg
+    - assets/image/profile3.jpg
+    - assets/image/profile4.jpg
+    - assets/image/profile5.jpg
+    - assets/image/profile6.jpg
+    - assets/image/grocery.jpg
+    - assets/image/blob.png
+    - assets/image/recipes.jpg
+    - assets/image/serviceImage.jpg
+    - assets/image/develop.jpeg
+    - assets/image/design.jpeg
+    - assets/image/profile1.jpeg
+    - assets/image/profile2.jpeg
+    - assets/image/profile3.jpeg
+    - assets/image/strategy.jpeg
+    - assets/image/team.jpeg
+    - assets/image/services.jpg
+    - assets/image/porto.png
+    - assets/image/contactus.png
+    - assets/image/porto2.png
+    - assets/image/porto3.png
+    - assets/image/porto4.png
+    - assets/image/porto5.png
+    - assets/image/porto1.png
+    - assets/image/porto1.png
+    - assets/image/headerPortofolio.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: hiraminpro
+      fonts:
+        - asset: assets/font/hiraminpro-w3.otf
+    - family:  montserrat
+      fonts:
+        - asset: assets/font/Montserrat-Bold.ttf
+        - asset: assets/font/Montserrat-Regular.ttf
+    - family : Lemon
+      fonts:
+        - asset: assets/font/Lemon-Regular.ttf
+          weight: 400
+    - family : Sofia
+      fonts:
+        - asset: assets/font/Sofia/SofiaProBold.otf
+          weight: 900
+        - asset: assets/font/Sofia/SofiaProSemiBold.otf
+          weight: 800
+        - asset: assets/font/Sofia/SofiaProMedium.otf
+          weight: 700
+        - asset: assets/font/Sofia/SofiaProRegular.otf
+          weight: 600
+        - asset: assets/font/Sofia/SofiaProLight.otf
+          weight: 500
+        - asset: assets/font/Sofia/SofiaProExtraLight.otf
+          weight: 400
+        - asset: assets/font/Sofia/SofiaProUltraLight.otf
+          weight: 300
+    - family : Poppins
+      fonts:
+        - asset: assets/font/Poppins/Poppins-ExtraBold.otf
+          weight: 900
+        - asset: assets/font/Poppins/Poppins-Bold.otf
+          weight: 800
+        - asset: assets/font/Poppins/Poppins-SemiBold.otf
+          weight: 700
+        - asset: assets/font/Poppins/Poppins-Medium.otf
+          weight: 600
+        - asset: assets/font/Poppins/Poppins-Regular.otf
+          weight: 500
+        - asset: assets/font/Poppins/Poppins-Light.otf
+          weight: 400
+        - asset: assets/font/Poppins/Poppins-ExtraLight.otf
+          weight: 300
+        - asset: assets/font/Poppins/Poppins-Thin.otf
+          weight: 200
